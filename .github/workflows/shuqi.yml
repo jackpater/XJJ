@@ -27,7 +27,28 @@ jobs:
           cd ~/XJJ
           node Task/shuqi.js
 env:
-          BBB_CASH: ${{ secrets.BBB_CASH }}
+          shuqiuserurlVal: ${{ secrets.shuqiuserurlVal }}
+          shuqisyurlVal: ${{ secrets.shuqisyurlVal }}
+          shuqisybodyVal: ${{ secrets.shuqisybodyVal }}
+          shuqispbodyVal: ${{ secrets.shuqispbodyVal }}
+          shuqiscbodyVal: ${{ secrets.shuqiscbodyVal }}
+          shuqiydbodyVal: ${{ secrets.shuqiydbodyVal }}
+          shuqiqdbodyVal: ${{ secrets.shuqiqdbodyVal }}		
+          shuqirwbodyVal: ${{ secrets.shuqirwbodyVal }}
+          shuqifxbodyVal: ${{ secrets.shuqifxbodyVal }}
+          shuqisprwurlVal: ${{ secrets.shuqisprwurlVal }}
+          shuqijlbodyVal: ${{ secrets.shuqijlbodyVal }}
+          shuqicjyurlVal: ${{ secrets.shuqicjyurlVal }}
+          shuqicjcsbodyVal: ${{ secrets.shuqicjcsbodyVal }}
+          shuqicjbodyVal: ${{ secrets.shuqicjbodyVal }}
+          shuqijsspbodyVal: ${{ secrets.shuqijsspbodyVal }}
+          shuqijsydurlVal: ${{ secrets.shuqijsydurlVal }}
+          shuqijsydbodyVal: ${{ secrets.shuqijsydbodyVal }}
+          shuqijsqdbodyVal: ${{ secrets.shuqijsqdbodyVal }}
+          shuqijsqdspyurlVal: ${{ secrets.shuqijsqdspyurlVal }}
+          shuqijsrwbodyVal: ${{ secrets.shuqijsrwbodyVal }}
+          shuqijsfxbodyVal: ${{ secrets.shuqijsfxbodyVal }}
+          shuqijssprwurlVal: ${{ secrets.shuqijssprwurlVal }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
