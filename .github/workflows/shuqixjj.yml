@@ -27,6 +27,7 @@ jobs:
       receivebodyArr: ${{ secrets.receivebody }}
       signinactionbodyArr: ${{ secrets.signinactionbody }}
       readlotterybodyArr: ${{ secrets.readlotterybody }}
+      videolotterybodyArr: ${{ secrets.videolotterybody }}
       luckylotterybodyValArr: ${{ secrets.luckylotterybodyValy }}
       luckyredurlValArr: ${{ secrets.luckyredurlVal }}
       luckyredbodyValArr: ${{ secrets.luckyredbodyVal }}
@@ -42,7 +43,7 @@ jobs:
       lotteryinfourlValArr: ${{ secrets.lotteryinfourlVal }}
       videoinfourlValArr: ${{ secrets.videoinfourlVal }}
       spvideoinfourlValArr: ${{ secrets.spvideoinfourlVal }}
-      videolotterybodyArr: ${{ secrets.videolotterybody }}
+      
 
 
 
