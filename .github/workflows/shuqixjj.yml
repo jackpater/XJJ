@@ -18,31 +18,31 @@ jobs:
     env:
       #URL: "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/QQread.js"
       #RUNFILE: "Task/QQread.js"      
-      loadresourcebody: ${{ secrets.loadresourcebody }}
-      loadresourcekey: ${{ secrets.loadresourcekey }}
-      sploadresourcebody: ${{ secrets.sploadresourcebody }}
-      sploadresourcekey: ${{ secrets.sploadresourcekey }}
-      withdrawbody: ${{ secrets.withdrawbody }}
-      bubblebody: ${{ secrets.bubblebody }}
-      receivebody: ${{ secrets.receivebody }}
-      signinactionbody: ${{ secrets.signinactionbody }}
-      readlotterybody: ${{ secrets.readlotterybody }}
-      luckylotterybodyVal: ${{ secrets.luckylotterybodyValy }}
-      luckyredurlVal: ${{ secrets.luckyredurlVal }}
-      luckyredbodyVal: ${{ secrets.luckyredbodyVal }}
-      sharebodyVal: ${{ secrets.sharebodyVal }}
-      booktaskurlVal: ${{ secrets.booktaskurlVal }}
-      booktaskbodyVal: ${{ secrets.booktaskbodyVal }}
-      spsigninactionbodyVal: ${{ secrets.spsigninactionbodyVal }}
-      spreadcoinurlVal: ${{ secrets.spreadcoinurlVal }}
-      spreadcoinbodyVal: ${{ secrets.spreadcoinbodyVal }}
-      sp1videocoinbodyVal: ${{ secrets.sp1videocoinbodyVal }}
-      sp2videocoinbodyVal: ${{ secrets.sp2videocoinbodyVal }}
-      spsharebodyVal: ${{ secrets.spsharebodyVal }}
-      lotteryinfourlVal: ${{ secrets.lotteryinfourlVal }}
-      videoinfourlVal: ${{ secrets.videoinfourlVal }}
-      spvideoinfourlVal: ${{ secrets.spvideoinfourlVal }}
-      videolotterybody: ${{ secrets.videolotterybody }}
+      loadresourcebodyArr: ${{ secrets.loadresourcebody }}
+      loadresourcekeyArr: ${{ secrets.loadresourcekey }}
+      sploadresourcebodyArr: ${{ secrets.sploadresourcebody }}
+      sploadresourcekeyArr: ${{ secrets.sploadresourcekey }}
+      withdrawbodyArr: ${{ secrets.withdrawbody }}
+      bubblebodyArr: ${{ secrets.bubblebody }}
+      receivebodyArr: ${{ secrets.receivebody }}
+      signinactionbodyArr: ${{ secrets.signinactionbody }}
+      readlotterybodyArr: ${{ secrets.readlotterybody }}
+      luckylotterybodyValArr: ${{ secrets.luckylotterybodyValy }}
+      luckyredurlValArr: ${{ secrets.luckyredurlVal }}
+      luckyredbodyValArr: ${{ secrets.luckyredbodyVal }}
+      sharebodyValArr: ${{ secrets.sharebodyVal }}
+      booktaskurlValArr: ${{ secrets.booktaskurlVal }}
+      booktaskbodyValArr: ${{ secrets.booktaskbodyVal }}
+      spsigninactionbodyValArr: ${{ secrets.spsigninactionbodyVal }}
+      spreadcoinurlValArr: ${{ secrets.spreadcoinurlVal }}
+      spreadcoinbodyValArr: ${{ secrets.spreadcoinbodyVal }}
+      sp1videocoinbodyValArr: ${{ secrets.sp1videocoinbodyVal }}
+      sp2videocoinbodyValArr: ${{ secrets.sp2videocoinbodyVal }}
+      spsharebodyValArr: ${{ secrets.spsharebodyVal }}
+      lotteryinfourlValArr: ${{ secrets.lotteryinfourlVal }}
+      videoinfourlValArr: ${{ secrets.videoinfourlVal }}
+      spvideoinfourlValArr: ${{ secrets.spvideoinfourlVal }}
+      videolotterybodyArr: ${{ secrets.videolotterybody }}
 
 
 
