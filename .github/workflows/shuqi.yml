@@ -1,0 +1,37 @@
+﻿name: 书旗小说
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0,30 0-15,22,23 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest       
+    steps:
+      
+      - name: Checkout
+        run: |
+          git clone https://github.com/pizile/XJJ.git ~/XJJ
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: npm install
+        run: |
+          cd ~/XJJ
+          npm install
+          npm install cron
+          npm install request
+          curl ipinfo.io/json
+      - name: '运行【书旗小说】'
+        run: |
+          cd ~/XJJ
+          node Task/shuqi.js
+env:
+          BBB_CASH: ${{ secrets.BBB_CASH }}
+          PUSH_KEY: ${{ secrets.PUSH_KEY }}
+          BARK_PUSH: ${{ secrets.BARK_PUSH }}
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_USER_ID: ${{ secrets.TG_USER_ID }}
+          BARK_SOUND: ${{ secrets.BARK_SOUND }}
+          DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN }}
+          DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
